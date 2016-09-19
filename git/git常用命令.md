@@ -19,3 +19,5 @@ git config --global --add core.editor "'sublime_text.exe' -w"
 ```bash
 sublime_text.exe xx.js
 ```
+### git commit 不打开编辑器
+git config --global --add core.editor gvim
